@@ -10,7 +10,7 @@ const Navbar = () => (
   <nav className="navbar is-transparent">
     <div className="container">
       <div className="navbar-brand">
-        <Link to="/" className="title is-1">
+        <Link to="/" className="title is-3">
           Kat Emerson Fine Art
         </Link>
       </div>
