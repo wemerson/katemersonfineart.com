@@ -33,6 +33,11 @@ export default class IndexPage extends React.Component {
           {posts.filter(post => post.node.frontmatter.templateKey === 'blog-post').map(({ node: post }) => {
             return (
               <div className="content" style={{ border: '1px solid #eaecee', padding: '2em 4em' }} key={post.id}>
+                <figure class="media-left">
+                  <p class="image is-128x128">
+                    <img src="https://bulma.io/images/placeholders/128x128.png">
+                  </p>
+              </figure>
                 <p>
                   <Link className="has-text-primary" to={post.frontmatter.path}>
                     {post.frontmatter.title}
