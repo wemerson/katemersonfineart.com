@@ -10,7 +10,7 @@ const Navbar = () => (
   <nav className="navbar is-transparent">
     <div className="container">
       <div className="navbar-brand">
-        <Link to="/" className="navbar-brand">
+        <Link to="/" className="title is-1">
           Kat Emerson Fine Art
         </Link>
       </div>
@@ -23,11 +23,7 @@ const Navbar = () => (
         </Link>
       </div>
       <div className="navbar-end">
-        <a className="navbar-item" href="https://github.com/AustinGreen/gatsby-netlify-cms-boilerplate" target="_blank" rel="noopener noreferrer">
-          <span className="icon">
-            <img src={github} alt="Github" />
-          </span>
-        </a>
+        
       </div>
     </div>
   </nav>
@@ -35,7 +31,7 @@ const Navbar = () => (
 
 const TemplateWrapper = ({ children }) => (
   <div>
-    <Helmet title="Home | Gatsby + Netlify CMS" />
+    <Helmet title="Kat Emerson Fine Art" />
     <Navbar />
     <div>{children()}</div>
   </div>
