@@ -32,13 +32,13 @@ export default class IndexPage extends React.Component {
           </div>
           {posts.filter(post => post.node.frontmatter.templateKey === 'blog-post').map(({ node: post }) => {
             return (
-              <div className="content" style={{ border: '1px solid #eaecee', padding: '2em 4em' }} key={post.id}>
+              <div class="box" style={{ border: '1px solid #eaecee', padding: '2em 4em' }} key={post.id}>
                 <article class="media">
-                  <figure class="media-left">
-                      <div class="image is-128x128">
-                        <img src="https://bulma.io/images/placeholders/128x128.png" />
-                      </div>
-                  </figure>
+                  <div class="media-left"
+                    <figure class="image is-128x128">
+                      <img src="https://bulma.io/images/placeholders/128x128.png" />
+                    </figure>
+                  </div>
                   <div class="media-content">
                     <div class="content">
                       <p>
