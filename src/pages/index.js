@@ -40,7 +40,7 @@ export default class IndexPage extends React.Component {
                       < /p>
                   </figure>
                   <div class="media-content">
-                    <div class=="content">
+                    <div class="content">
                       <p>
                         <Link className="has-text-primary" to={post.frontmatter.path}>
                           {post.frontmatter.title}
