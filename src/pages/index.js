@@ -34,7 +34,7 @@ export default class IndexPage extends React.Component {
             return (
               <div class="box" style={{ border: '1px solid #eaecee', padding: '2em 4em' }} key={post.id}>
                 <article class="media">
-                  <div class="media-left"
+                  <div class="media-left">
                     <figure class="image is-128x128">
                       <img src="https://bulma.io/images/placeholders/128x128.png" />
                     </figure>
