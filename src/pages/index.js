@@ -21,7 +21,7 @@ export default className IndexPage extends React.Component {
     const { data } = this.props;
     const { edges: posts } = data.allMarkdownRemark;
     return (
-      <section classNameName="section">
+      <section className="section">
         <Script
           url="https://identity.netlify.com/v1/netlify-identity-widget.js"
           onLoad={this.handleScriptLoad.bind(this)}
@@ -33,7 +33,7 @@ export default className IndexPage extends React.Component {
           {posts.filter(post => post.node.frontmatter.templateKey === 'blog-post').map(({ node: post }) => {
             return (
               <div className="box" style={{ border: '1px solid #eaecee', padding: '2em 4em' }} key={post.id}>
-                <article classNameName="media">
+                <article className="media">
                   <div className="media-left">
                     <figure className="image is-128x128">
                       <img src="https://bulma.io/images/placeholders/128x128.png" />
