@@ -35,9 +35,9 @@ export default class IndexPage extends React.Component {
               <div className="content" style={{ border: '1px solid #eaecee', padding: '2em 4em' }} key={post.id}>
                 <article class="media">
                   <figure class="media-left">
-                      <p class="image is-128x128">
+                      <div class="image is-128x128">
                         <img src="https://bulma.io/images/placeholders/128x128.png" />
-                      < /p>
+                      </div>
                   </figure>
                   <div class="media-content">
                     <div class="content">
