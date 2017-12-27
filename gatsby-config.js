@@ -30,7 +30,7 @@ module.exports = {
       }
     },
     {
-    resolve: `gatsby-plugin-feed`
+    resolve: `gatsby-plugin-feed`,
     options: {
       query: `
         {
