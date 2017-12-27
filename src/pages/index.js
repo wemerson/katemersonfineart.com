@@ -3,7 +3,7 @@ import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import Script from 'react-load-script';
 
-export default class IndexPage extends React.Component {
+export default className IndexPage extends React.Component {
   handleScriptLoad() {
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on('init', user => {
@@ -21,7 +21,7 @@ export default class IndexPage extends React.Component {
     const { data } = this.props;
     const { edges: posts } = data.allMarkdownRemark;
     return (
-      <section className="section">
+      <section classNameName="section">
         <Script
           url="https://identity.netlify.com/v1/netlify-identity-widget.js"
           onLoad={this.handleScriptLoad.bind(this)}
@@ -32,15 +32,15 @@ export default class IndexPage extends React.Component {
           </div>
           {posts.filter(post => post.node.frontmatter.templateKey === 'blog-post').map(({ node: post }) => {
             return (
-              <div class="box" style={{ border: '1px solid #eaecee', padding: '2em 4em' }} key={post.id}>
-                <article class="media">
-                  <div class="media-left">
-                    <figure class="image is-128x128">
+              <div className="box" style={{ border: '1px solid #eaecee', padding: '2em 4em' }} key={post.id}>
+                <article classNameName="media">
+                  <div className="media-left">
+                    <figure className="image is-128x128">
                       <img src="https://bulma.io/images/placeholders/128x128.png" />
                     </figure>
                   </div>
-                  <div class="media-content">
-                    <div class="content">
+                  <div className="media-content">
+                    <div className="content">
                       <p>
                         <Link className="has-text-primary" to={post.frontmatter.path}>
                           {post.frontmatter.title}
