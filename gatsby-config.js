@@ -77,7 +77,7 @@ module.exports = {
               }
             }
           `,
-          output: "/rss.xml",
+          output: "/static/rss.xml",
         },
       ],
     },
