@@ -4,6 +4,7 @@ path: /new-painting
 title: New Portrait
 date: 2017-12-26T22:19:06.365Z
 description: My latest portrait of a tired journalist.
+draft: false
 ---
 ![](/img/kemerson_0228.jpg)
 
