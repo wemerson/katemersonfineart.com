@@ -34,6 +34,9 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
               date
               title
               image
+              price
+              size
+              genre
               heading
               description
               intro {

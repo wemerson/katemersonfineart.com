@@ -37,6 +37,10 @@ export const pageQuery = graphql`
         path
         date(formatString: "MMMM DD, YYYY")
         title
+        image
+        price
+        size
+        genre
         description
       }
     }

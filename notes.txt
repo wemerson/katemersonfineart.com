@@ -1,0 +1,27 @@
+
+test query for graphiql:
+
+{
+  allMarkdownRemark(
+      limit: 1000,
+      sort: { order: DESC, fields: [frontmatter___date] },
+      filter: {frontmatter: { templateKey: { eq: "blog-post" } }} 
+    ) {
+      edges {
+        node {
+          excerpt
+          html
+          fields { slug }
+          frontmatter {
+            title
+            date
+            templateKey
+            image
+            price
+            size
+            genre
+          }
+        }
+      }
+    }
+}

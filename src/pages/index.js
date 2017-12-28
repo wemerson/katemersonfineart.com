@@ -36,7 +36,9 @@ export default class IndexPage extends React.Component {
                 <article className="media">
                   <div className="media-left">
                     <figure className="image is-128x128">
-                      <img src="https://bulma.io/images/placeholders/128x128.png" />
+                      <Link to={post.frontmatter.path}>
+                        <img src={post.frontmatter.image} />
+                      </Link>
                     </figure>
                   </div>
                   <div className="media-content">
@@ -73,13 +75,18 @@ export const pageQuery = graphql`
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
-          excerpt(pruneLength: 400)
-          id
+          excerpt
+          html
+          fields { slug }
           frontmatter {
-            title
-            templateKey
-            date(formatString: "MMMM DD, YYYY")
             path
+            title
+            date(formatString: "MMMM DD, YYYY")
+            templateKey
+            image
+            price
+            size
+            genre
           }
         }
       }
