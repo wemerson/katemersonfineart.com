@@ -1,8 +1,9 @@
 import React from 'react';
 import Content, { HTMLContent } from '../components/Content';
 import Helmet from 'react-helmet';
+import Labels from '../components/Labels'
 
-export const BlogPostTemplate = ({ content, contentComponent, description, title, helmet }) => {
+export const BlogPostTemplate = ({ content, contentComponent, description, title, helmet, labels }) => {
   const PostContent = contentComponent || Content;
   return <section className="section">
     { helmet ? helmet : ""}
@@ -12,6 +13,7 @@ export const BlogPostTemplate = ({ content, contentComponent, description, title
           <h1 className="title is-size-5 has-text-weight-bold is-bold-light">{title}</h1>
           <p>{description}</p>
           <PostContent content={content} />
+          <Labels data={labels} />
         </div>
       </div>
     </div>
@@ -25,7 +27,11 @@ export default ({ data }) => {
     contentComponent={HTMLContent}
     description={post.frontmatter.description}
     helmet={<Helmet title={`Blog | ${post.frontmatter.title}`} />}
+    labels={post.frontmatter}
     title={post.frontmatter.title}
+    size={post.frontmatter.size}
+    genre={post.frontmatter.genre}
+    price={post.frontmatter.price}
   />;
 }
 

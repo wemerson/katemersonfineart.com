@@ -25,3 +25,19 @@ test query for graphiql:
       }
     }
 }
+
+Sample Labels for DPW:
+
+<span class='post-labels'>
+Labels:
+<a href='http://carolmarine.blogspot.com/search/label/6x6%20-%20oil%20on%20gessoboard' rel='tag'>6x6 - oil on gessoboard</a>,
+<a href='http://carolmarine.blogspot.com/search/label/orange' rel='tag'>orange</a>,
+<a href='http://carolmarine.blogspot.com/search/label/plates' rel='tag'>plates</a>,
+<a href='http://carolmarine.blogspot.com/search/label/still%20life' rel='tag'>still life</a>
+</span>
+</div>
+
+example from dpw:
+Example complete keyword/label for a post you want pulled by DPW:
+
+still life,oil on canvas,6x6,price $100

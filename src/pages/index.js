@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import Script from 'react-load-script';
+import Labels from '../components/Labels'
 
 export default class IndexPage extends React.Component {
   handleScriptLoad() {
@@ -57,6 +58,9 @@ export default class IndexPage extends React.Component {
                         <Link className="button is-small" to={post.frontmatter.path}>
                           Keep Reading →
                         </Link>
+                      </p>
+                      <p>
+                        <Labels data={post.frontmatter} />
                       </p>
                     </div>
                   </div>
