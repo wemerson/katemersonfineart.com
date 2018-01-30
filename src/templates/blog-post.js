@@ -41,6 +41,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         path
+        category
         date(formatString: "MMMM DD, YYYY")
         title
         image

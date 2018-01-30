@@ -41,3 +41,11 @@ example from dpw:
 Example complete keyword/label for a post you want pulled by DPW:
 
 still life,oil on canvas,6x6,price $100
+
+Removed Keep Reading link in blog index:
+
+  <Link className="button is-small" to={post.frontmatter.path}>
+    Keep Reading →
+  </Link>
+
+

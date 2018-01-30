@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
 path: /new-painting
+category: Daily Paint Works
 title: New Portrait
 date: 2017-12-26T22:19:06.365Z
 description: My latest portrait of a tired journalist

@@ -7,7 +7,7 @@ import logo from '../img/logo.svg';
 import './all.sass';
 
 const Navbar = () => (
-  <nav className="navbar is-transparent">
+  <nav className="navbar">
     <div className="container">
       <div className="navbar-brand">
         <Link to="/" className="title is-3">

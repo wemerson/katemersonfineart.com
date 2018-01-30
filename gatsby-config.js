@@ -61,7 +61,7 @@ module.exports = {
               allMarkdownRemark(
                   limit: 1000,
                   sort: { order: DESC, fields: [frontmatter___date] },
-                  filter: {frontmatter: { templateKey: { eq: "blog-post" } }} 
+                  filter: { frontmatter: { category: { eq: "Daily Paint Works" }} } 
                 ) {
                   edges {
                     node {
@@ -72,6 +72,7 @@ module.exports = {
                         title
                         date
                         templateKey
+                        category
                       }
                     }
                   }

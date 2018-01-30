@@ -33,7 +33,8 @@ export default class IndexPage extends React.Component {
           </div>
           {posts.filter(post => post.node.frontmatter.templateKey === 'blog-post').map(({ node: post }) => {
             return (
-              <div className="box" style={{ border: '1px solid #eaecee', padding: '2em 4em' }} key={post.id}>
+              console.log(post),
+              <div className="blogpost-box" key={post.id}>
                 <article className="media">
                   <div className="media-left">
                     <figure className="image is-128x128">
@@ -55,9 +56,7 @@ export default class IndexPage extends React.Component {
                         {post.excerpt}
                         <br />
                         <br />
-                        <Link className="button is-small" to={post.frontmatter.path}>
-                          Keep Reading →
-                        </Link>
+                       
                       </p>
                       <p>
                         <Labels data={post.frontmatter} />

@@ -1,19 +1,13 @@
 ---
 templateKey: 'about-page'
 path: /about
-title: About our values
+title: About the Artist
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+I was lucky enough to be born into a family that valued art.  Art supplies and art books were always available and museum visits were common occurrences. As a result I loved to both look at art and to try and make it myself.
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+I fell in love with life drawing when I took my first class in the summer after I graduated from high school. I continued drawing throughout my studies at the University of California where I majored in Design, and I still try to draw the figure from life once a week.  It is a practice I never tire of. 
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+I started painting in oils about ten years ago.  I have taken workshops with Sherrie McGraw, Jeff Watts, Peggi Kroll Roberts and Dreama Tolle Perry, among others. I occasionally paint still lifes or landscapes but my favorites subjects are still the human figure and the portrait.  I prefer to work from life, but make use of photographs when that isn't possible.
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+I am less interested in "self-expression", something that I think occurs naturally anyway during the art making process, and more interested in expressing something essential about the unique individual spirit and humanity of my subject. My hope is that the viewer will feel that spirit and be moved by it.

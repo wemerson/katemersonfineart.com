@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
 path: /daily20171228
+category: 'Daily Paint Works'
 title: 'Today''s painting-Dec 28,2017'
 date: 2017-12-28T22:23:14.965Z
 image: /img/kemerson_0233.jpg
