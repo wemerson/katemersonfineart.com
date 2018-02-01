@@ -28,7 +28,6 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-
   - name: "pages"
     label: "Pages"
     files:
