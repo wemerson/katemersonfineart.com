@@ -12,4 +12,4 @@ description: out the window
 ---
 shot out the window at 1:00 pm.
 
-![](/img/webcam__20180201-130000.jpg)
+![null](/img/webcam__20180201-130000.jpg)
