@@ -12,4 +12,4 @@ description: what snow?
 ---
 When did it snow? A few days ago.
 
-![](/img/webcam__20180128-090000.jpg)
+![null](/img/webcam__20180128-090000.jpg)
