@@ -1,9 +1,10 @@
 ---
 templateKey: blog-post
 path: /februaryone
+category: Daily Paint Works
 title: February First
 date: 2018-02-01T08:26:24.748Z
-image: /img/webcam__20180201-130000.jpg
+thumbnail: /img/webcam__20180201-130000.jpg
 price: $55
 size: 6x8
 genre: landscape
