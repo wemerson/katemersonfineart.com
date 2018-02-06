@@ -12,4 +12,3 @@ genre: portrait
 description: 'This is a portrait of a friend of mine. '
 ---
 I got my friend Sadie to sit down and pose for me.
-
