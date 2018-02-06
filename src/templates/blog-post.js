@@ -13,9 +13,12 @@ export const BlogPostTemplate = ({ content, contentComponent, description, title
           <h1 className="title is-size-5 has-text-weight-bold is-bold-light">{title}</h1>
           <div className="blogpost-img-box image">
             <img src={image} />
+            <Labels data={labels} />
           </div>
-          <PostContent content={content} />
-          <Labels data={labels} />
+          <div className="blogpost-content">
+            <PostContent content={content} />
+          </div>
+          
         </div>
       </div>
     </div>
