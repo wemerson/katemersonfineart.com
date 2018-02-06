@@ -21,7 +21,7 @@ collections:
           options: ["still life", "landscape", "portrait", "figure"]
         }
       - {label: "Medium", name: "medium", widget: "select",
-          options: ["oil on canvas", "oil on linen", "oil on linen panel","oil on gessoboard", "colored pencil", "pastel pencil", "pastel pencil", "conte", "charcoal", "graphite"]
+          options: ["oil on canvas", "oil on linen", "oil on linen panel","oil on gessoboard", "colored pencil", "pastel pencil", "conte", "charcoal", "graphite"]
         }
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
