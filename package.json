@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-netlify-cms",
-  "description": "Example Gatsby, and Netlify CMS project",
+  "name": "katemersonfineart.com",
+  "description": "Kat Emerson Art Website",
   "version": "1.0.0",
-  "author": "Austin Green",
+  "author": "Will Emerson",
   "dependencies": {
     "bulma": "^0.6.0",
     "bulmaswatch": "^0.5.2",
@@ -16,8 +16,7 @@
     "gatsby-remark-images": "^1.5.18",
     "gatsby-source-filesystem": "^1.5.5",
     "gatsby-transformer-remark": "^1.7.17",
-    "gatsby-transformer-sharp": "^1.6.13",
-    "react-load-script": "0.0.6"
+    "gatsby-transformer-sharp": "^1.6.13"
   },
   "keywords": [
     "gatsby"
