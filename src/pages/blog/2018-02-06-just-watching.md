@@ -25,8 +25,8 @@ I’m also part of a figure drawing group that has been meeting once a week for 
 
 So, here are my first three offerings for both Daily Paintworks and the 30 in 30 challenge, along with this week’s figure drawing.
 
-![](/img/img_0422.jpg)
+![null](/img/img_0422.jpg)
 
-![](/img/img_0459.jpg)
+![null](/img/img_0459.jpg)
 
-![](/img/img_0482.jpg)
+![null](/img/img_0482.jpg)
