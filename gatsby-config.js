@@ -61,7 +61,7 @@ module.exports = {
               allMarkdownRemark(
                   limit: 1000,
                   sort: { order: DESC, fields: [frontmatter___date] },
-                  filter: { frontmatter: { category: { eq: "Daily Paint Works" }} } 
+                  filter: { frontmatter: { category: { eq: "Paintings--Daily Paint Works" }} } 
                 ) {
                   edges {
                     node {

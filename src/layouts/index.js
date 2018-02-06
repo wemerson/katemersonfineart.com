@@ -10,7 +10,7 @@ const Navbar = () => (
   <nav className="navbar">
     <div className="container">
       <div className="navbar-brand">
-        <Link to="/" className="title is-3">
+        <Link to="/" className="title">
           Kat Emerson Fine Art
         </Link>
       </div>
@@ -18,9 +18,7 @@ const Navbar = () => (
         <Link className="navbar-item" to="/about">
           About the Artist
         </Link>
-        <Link className="navbar-item" to="/products">
-          Artwork
-        </Link>
+        
       </div>
       <div className="navbar-end">
         
@@ -34,6 +32,7 @@ const TemplateWrapper = ({ children }) => (
     <Helmet title="Kat Emerson Fine Art" />
     <Navbar />
     <div>{children()}</div>
+    <footer class="footer">&nbsp;</footer>
   </div>
 );
 

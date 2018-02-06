@@ -90,6 +90,8 @@ export const pageQuery = graphql`
             price
             size
             genre
+            category
+            medium
           }
         }
       }

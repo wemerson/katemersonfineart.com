@@ -14,16 +14,21 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - {label: "Path", name: "path", widget: "string"}
-      - {label: "Category", name: "category", widget: "string"}
+      - {label: "Category", name: "category", widget: "select",
+          options: ["Drawings", "Paintings", "Paintings--Daily Paint Works"]
+        }
+      - {label: "Genre", name: "genre", widget: "select",
+          options: ["still life", "landscape", "portrait", "figure"]
+        }
+      - {label: "Medium", name: "medium", widget: "select",
+          options: ["oil on canvas", "oil on board", "pencil on paper"]
+        }
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Price", name: "price", widget: "string"}
       - {label: "Size", name: "size", widget: "select",
           options: ["5x7", "6x6", "6x8", "8x8", "8x10", "9x12", "12x12"] 
-        }
-      - {label: "Genre", name: "genre", widget: "select",
-          options: ["still life", "landscape", "portrait"]
         }
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}

@@ -3,7 +3,7 @@ import Content, { HTMLContent } from '../components/Content';
 import Helmet from 'react-helmet';
 import Labels from '../components/Labels'
 
-export const BlogPostTemplate = ({ content, contentComponent, description, title, helmet, labels }) => {
+export const BlogPostTemplate = ({ content, contentComponent, description, title, helmet, image, labels }) => {
   const PostContent = contentComponent || Content;
   return <section className="section">
     { helmet ? helmet : ""}
@@ -11,7 +11,9 @@ export const BlogPostTemplate = ({ content, contentComponent, description, title
       <div className="columns">
         <div className="column is-10 is-offset-1">
           <h1 className="title is-size-5 has-text-weight-bold is-bold-light">{title}</h1>
-          <p>{description}</p>
+          <div className="blogpost-img-box image">
+            <img src={image} />
+          </div>
           <PostContent content={content} />
           <Labels data={labels} />
         </div>
@@ -29,8 +31,11 @@ export default ({ data }) => {
     helmet={<Helmet title={`Blog | ${post.frontmatter.title}`} />}
     labels={post.frontmatter}
     title={post.frontmatter.title}
+    image={post.frontmatter.image}
     size={post.frontmatter.size}
     genre={post.frontmatter.genre}
+    category={post.frontmatter.category}
+    medium={post.frontmatter.medium}
     price={post.frontmatter.price}
   />;
 }
@@ -48,6 +53,7 @@ export const pageQuery = graphql`
         price
         size
         genre
+        medium
         description
       }
     }
