@@ -21,16 +21,16 @@ collections:
           options: ["still life", "landscape", "portrait", "figure"]
         }
       - {label: "Medium", name: "medium", widget: "select",
-          options: ["oil on canvas", "oil on linen", "oil on linen panel","oil on gessoboard", "colored pencil", "pastel pencil", "conte", "charcoal", "graphite"]
+          options: ["oil on canvas", "oil on linen", "oil on linen panel","oil on gessobord", "colored pencil", "pastel pencil", "conte", "charcoal", "graphite"]
         }
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Price", name: "price", widget: "string"}
       - {label: "Size", name: "size", widget: "select",
-          options: ["5x7", "6x6", "6x8", "8x8", "8x10", "9x12", "12x12"] 
+          options: ["5x7", "7x5", "6x6", "6x8", "8x6", "8x8", "8x10", "10x8", "9x12", "12x9", "12x12"] 
         }
-      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Description", name: "description", widget: "text", required: "false"}
       - {label: "Body", name: "body", widget: "markdown"}
 
 
