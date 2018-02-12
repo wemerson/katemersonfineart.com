@@ -15,7 +15,7 @@ description: A beautiful girl with hearts on her hajib
 
 ![Not the Enemy 4, oil on gessobord, 6x6](/img/img_0517.jpg)
 
-![Not the Enemy 5, oil on canvas panel, 8x6](/img/img_0515 (1).jpg)
+
 
 I have been very concerned with the sharp right turn our country has taken and have been looking for a way to express that concern through art. I wanted to do that in a positive way, showing the beauty of diversity instead of the ugliness of racism, misogyny, nationalism, homophobia and so forth. I hit upon the idea of doing a series of portraits called "Not the Enemy". Here are the first five paintings in the series.
 
