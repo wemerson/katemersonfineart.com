@@ -19,4 +19,4 @@ I have been very concerned with the sharp right turn our country has taken and h
 
 ![Not the Enemy 4, oil on gessobord, 6x6](/img/img_0517.jpg)
 
-![Not the Enemy 5, oil on gessobord, 6x6](/img/img_0515 (1).jpg)
+![Not the Enemy 5, oil on gessobord, 8x6](/img/img_0515m.jpg)
