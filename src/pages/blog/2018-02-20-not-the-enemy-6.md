@@ -13,4 +13,4 @@ description: Sixth in Not the Enemy series.
 ---
 Here are the next two installments of my "Not the Enemy" series.  I have to say that painting these faces makes me happy and even hopeful.  And with over seven billion possible candidates I will never run out of subject matter.
 
-![](/img/img_0477 (1).jpg)
+![](/img/img_0477.jpg)
