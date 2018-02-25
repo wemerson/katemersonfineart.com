@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: '20180225'
+path: /20180225
 category: Paintings
 genre: figure
 medium: oil on linen panel
